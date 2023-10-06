@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Add_Product.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="All_Product.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Edit_Product.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home_page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Register_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Add_Product.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="All_Product.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Edit_Product.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Register_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
